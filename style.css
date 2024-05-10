@@ -1,0 +1,117 @@
+/* Estilos gerais */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #FFD701;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header a {
+  text-decoration: none; 
+  color: inherit;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/* Estilos das avaliações */
+.avaliacoes {
+    padding: 20px;
+}
+
+.avaliacao {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.avaliacao img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.avaliacao h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.avaliacao p {
+    margin: 0;
+}
+
+.avaliacao-estrelas {
+    font-size: 16px;
+    color: #FFD701;
+    margin-bottom: 10px;
+}
+
+.avaliacao-estrelas i {
+    margin-right: 5px;
+}
+
+/* Estilos do formulário de comentário */
+.novo-comentario {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.novo-comentario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.novo-comentario input,
+.novo-comentario select,
+.novo-comentario textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.novo-comentario button {
+    background-color: #FFD701;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.novo-comentario button:hover {
+    background-color: #F0C500;
+}
+
+/* Estilos do comentário de Carlos */
+.comentario {
+    padding: 20px;
+}
+
+.comentario-foto {
+    display: flex;
+    align-items: center;
+}
+
+.comentario-foto img {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comentario-carlos div {
+    flex: 1;
+}
