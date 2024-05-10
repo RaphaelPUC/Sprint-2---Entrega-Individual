@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VAN Connect - Avaliações e Comentários</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <h1><a href="www.vanconnect.com.br">VAN Connect: Avaliações e Comentários</a></h1>
+  </header>
+  <!-- Secão de avaliações -->
+  <section class="avaliacoes">
+    <h2>Depoimentos de Estudantes</h2>
+
+    <!-- Avaliação 1 -->
+    <div class="avaliacao">
+      <h3>Ana Clara, Estudante de Engenharia</h3>
+      <div class="avaliacao-estrelas">
+        <!-- Estrelas de avaliação -->
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+      </div>
+      <p>A VAN Connect é a minha salvação! O transporte público era muito lotado e desconfortável, e o Uber era sempre
+        caro. Com a VAN Connect, eu posso contar com um transporte seguro, confiável e acessível para ir e voltar da
+        faculdade. Os motoristas são sempre pontuais, simpáticos e as vans são muito confortáveis. Recomendo muito a
+        VAN Connect para todos os estudantes! A plataforma é fácil de usar e o app funciona perfeitamente. Além disso, o
+        preço é justo e o atendimento ao cliente é excelente.</p>
+    </div>
+
+    <!-- Avaliação 2 -->
+    <div class="avaliacao">
+      <h3>João Pedro, Estudante de Direito</h3>
+      <div class="avaliacao-estrelas">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <p>Eu uso a VAN Connect para ir para meus cursos extracurriculares e estágios. É muito mais barato e conveniente
+        do que pegar o táxi ou Uber. Além disso, os motoristas são sempre muito simpáticos e prestativos. Recomendo a
+        VAN Connect para todos os estudantes que precisam de um transporte confiável e acessível.</p>
+    </div>
+
+    <!-- Avaliação 3 -->
+    <div class="avaliacao">
+      <h3>Maria Eduarda, Estudante do Ensino Médio</h3>
+      <div class="avaliacao-estrelas">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <p>Eu moro longe da escola e a VAN Connect me ajuda a chegar lá na hora. Os motoristas são sempre pontuais e as
+        vans são muito confortáveis. Eu recomendo a VANConnect para todos os estudantes!</p>
+    </div>
+
+    <h2>Depoimentos de Motoristas</h2>
+
+    <!-- AvaliaçãO 4-->
+    <div class="avaliacao">
+      <div class="comentario-foto">
+        <img src="usuarios/carlos.png" alt="Carlos, motorista de Van">
+        <div>
+          <h3>Carlos, Motorista de Van</h3>
+          <div class="avaliacao-estrelas">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>Eu adoro trabalhar com a VAN Connect! Os estudantes são sempre simpáticos e respeitosos, e a equipe de suporte é muito atenciosa. A plataforma é fácil de usar e me permite organizar minhas rotas de forma eficiente. Recomendo a VANConnect a todos os motoristas que desejam uma experiência de trabalho gratificante!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- seção de comentários -->
+  <section class="comentario">
+    <h2>Adicione seu Comentário</h2>
+    <div class="novo-comentario">
+      <!-- Formulário para adicionar comentários -->
+      <form id="form-comentario">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="tipoUsuario">Tipo de Usuário:</label>
+        <select id="tipoUsuario" name="tipoUsuario" required>
+          <option value="estudante">Estudante</option>
+          <option value="motorista">Motorista</option>
+        </select>
+
+        <label for="comentario">Comentário:</label>
+        <textarea id="comentario" name="comentario" rows="5" required></textarea>
+
+        <button type="submit">Enviar Comentário</button>
+      </form>
+    </div>
+
+  </section>
+  
+  <footer>
+    <!-- Rodapé da página -->
+    <p>&copy; 2024 VAN Connect. Todos os direitos reservados.</p>
+  </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
